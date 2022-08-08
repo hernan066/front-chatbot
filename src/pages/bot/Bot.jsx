@@ -1,3 +1,4 @@
+import Flow from "../../components/flow/Flow";
 import Navbar from "../../components/navbar/Navbar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import "./bot.scss";
@@ -8,6 +9,7 @@ const Bot = () => {
       <Sidebar />
       <div className="bot__container">
         <Navbar />
+        <Flow />
       </div>
     </div>
   );

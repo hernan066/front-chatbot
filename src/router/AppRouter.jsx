@@ -1,4 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
+import NewFlow from "../components/flow/newFlow/NewFlow"
 import { productInputs, userInputs } from "../formSource"
 import Bot from "../pages/bot/Bot"
 import Home from "../pages/home/Home"
@@ -32,8 +33,8 @@ export const AppRouter = () => {
           />
         </Route>
         <Route path="bot">
-        <Route index element={<List />} />
-          
+        <Route index element={<Bot />} />
+        
           
           </Route> 
           

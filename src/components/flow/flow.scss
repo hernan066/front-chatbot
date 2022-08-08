@@ -1,0 +1,73 @@
+.flow__container {
+  padding: 30px;
+}
+.flow__container h2 {
+  text-align: center;
+}
+.flow__initial h3 {
+  margin: 20px 0;
+}
+.flow__initial {
+  margin-bottom: 60px;
+}
+.flow__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.flow__initial__title {
+  display: flex;
+}
+.flow__initial__title > div {
+  border: 1px solid #333;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.flow__initial__content__row {
+  display: flex;
+}
+.flow__initial__content__row > div {
+  border: 1px solid #333;
+  padding: 10px;
+}
+.flex__1 {
+  flex: 0.5;
+}
+.flex__2 {
+  flex: 2;
+}
+.flex__3 {
+  flex: 3;
+}
+
+.flow__response__content__row {
+  display: flex;
+}
+
+.flow__delete {
+  background-color: transparent;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px dashed #b93d50;
+  color: #b93d50;
+
+  cursor: pointer;
+}
+.flow__edit {
+  background-color: transparent;
+  padding: 5px 15px;
+  border-radius: 5px;
+  border: 1px dashed #43b93d;
+  color: #43b93d;
+
+  cursor: pointer;
+}
+
+.flow__overlay{
+    background-color: #333;
+    position: fixed;
+    z-index: 2;
+}
