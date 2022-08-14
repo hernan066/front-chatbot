@@ -62,18 +62,20 @@ const Sidebar = () => {
             <NotificationsNoneIcon className="icon" />
             <span>Notifications</span>
           </li>
-          <p className="title">CONFIG BOT</p>
+          <p className="title">CHAT BOT</p>
           <Link to="/bot" style={{ textDecoration: "none" }}>
             <li>
               <SettingsSystemDaydreamOutlinedIcon className="icon" />
-              <span>Flujo de datos</span>
+              <span>Flow</span>
             </li>
           </Link>
-
+          <Link to="/messages" style={{ textDecoration: "none" }}>
           <li>
             <PsychologyOutlinedIcon className="icon" />
-            <span>Logs</span>
+            <span>Messages</span>
           </li>
+          </Link>
+          
           <li>
             <SettingsApplicationsIcon className="icon" />
             <span>Settings</span>
