@@ -56,7 +56,7 @@ export const List = () => {
               <tbody>
                 {isFetching && <span className="loading">Loading...</span>}
                 {data.messages.map((message, idx) => (
-                  <Message message={message} idx={idx} key={idx} />
+                  <Message message={message} idx={idx} key={idx} page={page}/>
                 ))}
               </tbody>
             </table>
